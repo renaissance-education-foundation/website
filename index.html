@@ -2,43 +2,180 @@
 <html lang="en">
 
 <head>
-    <title>Renaissance Academy - RA</title>
-    <!-- Required meta tags -->
+    <title>Web Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link href="cssjs/main.css" rel="stylesheet">
+
+    <style>
+        .display-1 {
+            font-size: 3.5rem;
+        }
+
+        .display-2 {
+            font-size: 3.2rem;
+        }
+
+        .display-3 {
+            font-size: 3rem;
+        }
+
+        .display-4 {
+            font-size: 2.8rem;
+        }
+
+        .btn {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-md-6">
-            <div class="p-5 py-5 bg-light">
-                <h1 class="display-4">Renaisance Academy</h1>
-                <p class="lead">
-                    Renasance Education Foundation provides an invigorating educational environment that develops
-                    responsible citizens who can artfully navigate our complex world
-                    and enjoy a good life with others.
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Renaissance Academy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Students</a>
+                    </li>
+                </ul>
+                <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <div class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <video class="w-100 rounded" autoplay loop muted>
+                                    <source src="videos/Tropical.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video class="w-100 rounded" autoplay loop muted>
+                                    <source src="videos/forest.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video class="w-100 rounded" autoplay loop muted>
+                                    <source src="videos/Agua-natural.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md my-auto">
+                    <h1 class="display-1">Simple Banner</h1>
+                    <p class="lead">A simple static banner with multiple videos on left or on top on small device!</p>
+                    <button class="btn btn-outline-secondary">Learn more</button>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-md-6">
+    <div class="bg-warning py-5">
+        <div class="container">
+            <h1 class="text-center display-1">Bright Section</h1>
+            <p class="lead text-center">A bright section to grab user's attention!</p>
 
+            <div class="row">
+                <div class="col-md py-4">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random&yellow" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title display-4">Short title</h5>
+                            <p class="card-text">Sapiente minima facilis atque modi id impedit et? Dolorem? Litora,
+                                nullam? Voluptate? Consequatur exercitation wisi, provident. Dolores feugiat, gravida
+                                tempus.</p>
+                            <a href="#" class="btn btn-warning">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md py-4">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random&yellow" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title display-4">Short title</h5>
+                            <p class="card-text">Turpis quis ipsam nihil potenti! Convallis distinctio rem, blandit,
+                                quidem fugiat? Eos vero quibusdam! Ea nihil justo fermentum voluptatem incididunt.</p>
+                            <a href="#" class="btn btn-warning">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md py-4">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random&yellow" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title display-4">Short title</h5>
+                            <p class="card-text">Do reiciendis, ab lacinia nulla ornare saepe, eligendi eiusmod aliquip
+                                parturient viverra sociis voluptate penatibus sequi quaerat proident diam nisi.</p>
+                            <a href="#" class="btn btn-warning">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md my-auto">
+                    <h1 class="display-1">Simple Banner</h1>
+                    <p class="lead">A simple static banner with multiple videos on right or on botton on small device!
+                    </p>
+                    <button class="btn btn-outline-dark">Learn more</button>
+                </div>
+                <div class="col-md">
+                    <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <video class="w-100 rounded" autoplay loop muted>
+                                    <source src="videos/Tropical.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video class="w-100 rounded" autoplay loop muted>
+                                    <source src="videos/forest.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <video class="w-100 rounded" autoplay loop muted>
+                                    <source src="videos/Agua-natural.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="/cssjs/main.js"></script>
 </body>
 
 </html>
